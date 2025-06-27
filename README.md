@@ -1,4 +1,4 @@
-
+![IMG-20250627-WA0002](https://github.com/user-attachments/assets/8da37dbb-b279-4979-8a60-e242fd8240e0)
 # Bienvenue sur mon profil GitHub 👋!
 
  Je suis **Soboure BELLO**, étudiant en école d'ingénieur à Polytech Lyon, spécialisé en Mathématiques Appliquées et Modélisation.  Je suis activement à la recherche d'opportunités (Stage, alternance, job)  dans les domaines de la **data science, de la statistique, de l'analyse de données et de la modélisation **.
