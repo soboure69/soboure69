@@ -1,7 +1,7 @@
 ![IMG-20250627-WA0002](https://github.com/user-attachments/assets/8da37dbb-b279-4979-8a60-e242fd8240e0)
 # Bienvenue sur mon profil GitHub 👋!
 
- Je suis **Soboure BELLO**, étudiant en école d'ingénieur à Polytech Lyon, spécialisé en Mathématiques Appliquées et Modélisation.  Je suis activement à la recherche d'opportunités (Stage, alternance, job)  dans les domaines de la **data science, de la statistique, de l'analyse de données et de la modélisation **.
+ Je suis **Soboure BELLO**, étudiant en école d'ingénieur à Polytech Lyon, spécialisé en Mathématiques Appliquées et Modélisation.  Je suis activement à la recherche d'opportunités (Stage, alternance, job)  dans les domaines de la **data science, de la statistique, de l'analyse de données et de la modélisation**.
 
 Passionné par la data science, le machine learning, l'analyse des données et leur application à des problématiques réelles, je combine une **rigueur mathématique**, un **esprit analytique et de synthèse**, ainsi qu'une forte capacité à **vulgariser mon travail** pour transformer des données brutes en informations exploitables.
 
@@ -75,7 +75,7 @@ Mes projets me permettent de mettre en pratique mes connaissances et de dévelop
 
 *   **Cycle Ingénieur en Mathématiques Appliquées et Modélisation**
     *   Polytech Lyon, Lyon (sept. 2023 à 2027).
-    *   Compétences acquises : analyse de données et statistiques, maîtrise de la programmation (notamment en Python et R), capacités en modélisation mathématique et en algorithmie.
+    *   Compétences acquises : analyse de données et statistiques, maîtrise de la programmation (notamment en Python et R), capacités en modélisation  et en algorithmie.
 
 *   **Licence L2 & L3 en Mathématiques Appliquées**
     *   Université de Paris Cité, Paris (sept. 2021 à juin 2023).
