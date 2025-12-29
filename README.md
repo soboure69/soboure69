@@ -9,67 +9,65 @@ Passionné par la data science, le machine learning, l'analyse des données et l
 
 Ma formation et mes projets m'ont permis d'acquérir une solide expertise dans les domaines suivants :
 
-*   **Langages de Programmation :**
-    *   Maîtrise de **Python**, **R**, **SQL**, et **C++**.
-    *   Expérience avec l'algorithmique de base et la programmation orientée objet (C++).
-    *   Utilisation de **Git** pour la gestion de versions de code.
+*   **Langages de Programmation :** **Python**, **R**, **SQL**, et **C++**
 
 *   **Data Science & Machine Learning :**
-    *   Mise en œuvre de modèles **supervisés et non-supervisés** en machine learning.
-    *   Utilisation des frameworks : **TensorFlow, Keras, Scikit-Learn, PyTorch**.
-    *   Notions de parallélisation des calculs et auto-apprentissage en Big Data.
 
 *   **Statistiques & Modélisation :**
-    *   Solides connaissances en statistiques et modélisation mathématique.
-    *   **Tests statistiques :** Problèmes de test, risques associés, test du rapport de vraisemblance maximale, test de Student, test du Chi2, probabilité de Fisher, V de Cramer, test de Kolmogorov-Smirnov, test de Shapiro-Wilk.
-    *   **Modèles de régression :** Linéaire simple et multiple, ANOVA, ANCOVA, régression logistique, modèles mixtes, GLM, PLS, Ridge, non et semi-paramétriques.
-    *   **Simulation aléatoire :** Monte-Carlo, rejet, inversion.
-    *   Statistique inférentielle et Bootstrap (paramétrique, non paramétrique).
-    *   **Séries temporelles :** Lissage, désaisonnalisation, prévision, processus univariés (MA, AR, ARMA, ARIMA, SARIMA).
-    *   **Modèles bayésiens :** MCMC, inférence bayésienne.
-    *   Modèles de durée (fiabilité, santé).
 
 *   **Analyse de Données & Bases de Données :**
-    *   Analyse et visualisation des données avec **Pandas, Matplotlib, Seaborn**.
-    *   Déploiement de tableaux de bord interactifs avec **Streamlit, Dash, ou Shiny**.
-    *   Pré-traitement, visualisation, statistiques univariées et multivariées des données.
-    *   Analyse de données et classification : **Analyse en composantes principales (ACP), Analyses factorielles des correspondances (AFC), Analyse des correspondantes multiples (ACM), Méthodes de classification, Analyses discriminantes**.
-    *   Manipulation de bases de données, notions de **SQL**.
 
 *   **Méthodes Numériques & Calcul Scientifique :**
-    *   Analyse numérique (résolution de problèmes linéaires et non linéaires).
-    *   Méthodes de discrétisation : différences finies, volumes finis, éléments finis.
-    *   Problèmes instationnaires, lois de conservation.
-    *   Optimisation continue (sans contrainte, avec contraintes) et Recherche Opérationnelle (programmation linéaire, graphes, métaheuristiques).
-    *   Calcul Haute Performance (MPI, OpenMP, OpenCL).
 
-## **Projets Académiques et Personnels**
+## **Projets**
 
 Mes projets me permettent de mettre en pratique mes connaissances et de développer des solutions concrètes :
 
-*   **Projet 1: Géolocalisation**
-    *   Construction d'une fonction de géolocalisation à partir des forces de signal de bornes (cartes RSSI).
-    *   Manipulation et visualisation des cartes RSSI, proposition de méthode pour compléter les données manquantes.
-    *   Conception, entraînement et évaluation d'un **réseau de neurones dense** pour la géolocalisation, en utilisant une fonction Loss appropriée et des métriques d'évaluation comme le R2 score.
+*   **Projet 1 : Machine Learning - Prédiction Churn Clients Télécommunications**
 
-*   **Projet 2: Simulations aléatoires**
-    *   Application de techniques de simulation aléatoire sous **R** par diverses méthodes : **Monte-Carlo, rejet, inversion**.
-    *   Traduction de concepts théoriques en solutions pratiques pour explorer et analyser des phénomènes aléatoires.
+    * Développé modèle ML prédiction churn 7043 clients (26.5% taux churn)
+    * Comparé 2 algorithmes : Random Forest (86.1% accuracy) vs XGBoost (87.2%)
+    * Feature importance : contrat mensuel (3x churn vs annuel), tenure, charges
+    * Hyperparameter tuning GridSearchCV 5-fold cross-validation
+    * Créé rapport PDF business + visualisations (confusion matrix, feature importance)
+    * Résultat : Identification 87% clients à risque → économie potentielle 100K€/an
+    * Stack : Python, scikit-learn, XGBoost, pandas, Matplotlib, Seaborn
+    * GitHub : github.com/soboure69/portfolio/01_ML_Classique_Churn
 
-*   **Projet 3: Prisonniers et Permutations**
-    *   Modélisation d'une situation amusante avec les permutations pour déterminer une stratégie de forte chance de liberté.
-    *   Compréhension de la situation, choix des éléments à modéliser et traduction du problème avec les **permutations circulaires**.
-    *   Résolution à l'aide de théorèmes sur les permutations et les probabilités, puis modélisation et simulation du problème sous **Python** pour confirmer les résultats théoriques.
+*   **Projet 2 : Deep Learning - NLP Sentiment Analysis IMDB Reviews**
 
-*   **Projet 4: Analyse Exploratoire de données (en cours)**
-    *   Analyse de transactions bancaires pour identifier des schémas de fraude.
-    *   Pré-traitement, visualisation, statistiques univariées et multivariées des données.
-    *   Déploiement d'un tableau de bord interactif : création d'applications de data visualisation avec **Streamlit, Dash, ou Shiny**.
+    * Développé modèle LSTM Bidirectionnel classification sentiment 50K reviews IMDB
+    * Architecture : Embedding 128 dims → Bi-LSTM 64 units → Dense layers
+    * Performance : 92.3% accuracy, 91.5% precision, 93.1% recall, ROC-AUC 0.975
+    * Preprocessing : Tokenization 10K vocabulaire, padding sequences 200 tokens
+    * Déployé Streamlit app interactive 3 onglets (Predict, Analytics, About)
+    * Inference temps réel <500ms par review
+    * Stack : TensorFlow, Keras, NLTK, Streamlit, Python
+    * Live : sentiment-analysis-soboure69.streamlit.app
+    * GitHub : github.com/soboure69/portfolio/02_DL_NLP_Sentiment
 
-*   **Étude sur les aspects de l'analyse statistique non paramétrique**
-    *   Utilisation du logiciel **R** et de ses packages pour les tests de Kolmogorov-Smirnov et Shapiro-Wilk.
+*   **Projet 3 : Data Engineering - Pipeline ETL Automatisé Multi-Sources**
 
-*   **Travail Pratique sur les modèles de régression linéaire**
+    * Conçu architecture ETL extraction Reddit, Twitter, OpenWeatherMap APIs
+    * Implémenté extractors Python (praw, tweepy, requests) - 1000+ records/jour
+    * Transformé données : cleaning, validation, deduplication, feature engineering
+    * Chargé PostgreSQL via SQLAlchemy ORM avec indexation optimisée
+    * Orchestré workflow Apache Airflow DAGs quotidiennes avec error handling
+    * Réduit temps traitement 60% via optimisation pipeline
+    * Stack : Python, Airflow, PostgreSQL, SQL, APIs REST, Luigi
+    * GitHub : github.com/soboure69/portfolio/03_Data_Engineering_Pipeline
+
+*   **Projet 4 : Dashboard Business - Système Recommandation Produits E-commerce**
+
+    * Conçu moteur recommandation content-based filtering (cosine similarity)
+    * Dashboard Dash/Plotly 5 visualisations analytics interactives temps réel
+    * Feature engineering : catégories, prix, ratings, reviews produits
+    * Interface utilisateur sélection produit → 5 recommandations similaires
+    * Déployé Heroku production - latence <500ms par requête
+    * Impact business simulé : +25% panier moyen, +40% CTR recommandations
+    * Stack : Python, Dash, Plotly, scikit-learn, pandas, Heroku
+    * Live : product-recommender-soboure69.herokuapp.com
+    * GitHub : github.com/soboure69/portfolio/04_Dashboard_Recommendation
 
 ## **Formation**
 
