@@ -11,7 +11,21 @@
 </div>
 
 ---
+## 📊 GitHub Stats
 
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=soboure69&show_icons=true&theme=radical)
+
+### 🏆 GitHub Trophies
+![Trophies](https://github-profile-trophy.vercel.app/?username=soboure69&theme=dracula&margin-w=10)
+
+### 📊 Langages les plus utilisés
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=soboure69&layout=compact&theme=radical)
+
+</div>
+
+---
 ## 🚀 About Me
 
 Je suis **étudiant ingénieur** en 4ème année à **Polytech Lyon**, spécialisé en Mathématiques Appliquées et Modélisation. Passionné par la **data science, le machine learning et l'ingénierie des données**, je transforme des problématiques complexes en solutions concrètes et exploitables.
@@ -159,21 +173,7 @@ C++ (Intermédiaire)   ████████░░░░░░
 | 🌍 **Intérêt Sociétal** | Conscience de l'impact éthique des données et modèles |
 
 ---
-## 📊 GitHub Stats
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=soboure69&show_icons=true&theme=radical)
-
-### 🏆 GitHub Trophies
-![Trophies](https://github-profile-trophy.vercel.app/?username=soboure69&theme=dracula&margin-w=10)
-
-### 📊 Langages les plus utilisés
-![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=soboure69&layout=compact&theme=radical)
-
-</div>
-
----
 
 ## 🤝 Let's Connect
 
