@@ -57,7 +57,7 @@ C++ (Intermédiaire)   ████████░░░░░░
 - **Model Optimization** : Hyperparameter tuning, Cross-validation, Feature engineering
 
 ### 🔧 **Data Engineering & Tools**
-- **Orchestration** : Apache Airflow, Luigi
+- **Orchestration** : Apache Airflow
 - **Databases** : PostgreSQL, MySQL, SQLAlchemy ORM
 - **Visualization** : Tableau, Power BI, Plotly, Matplotlib, Seaborn
 - **Deployment** : Docker, Streamlit, Dash, Heroku
