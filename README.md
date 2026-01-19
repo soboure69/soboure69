@@ -5,23 +5,35 @@
 ### 📊 Polytech Lyon | Applied Mathematics & Modeling
 ### 🎯 Data Science • Machine Learning • Data Engineering
 
+---
+
+<div align="center">
+
+## 🌟 Activité GitHub en Temps Réel
+
 ![GitHub followers](https://img.shields.io/github/followers/soboure69?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/soboure69?style=social)
+![Profile Views](https://komarev.com/ghpvc/?username=soboure69&color=blueviolet)
 
 </div>
 
 ---
-## 📊 GitHub Stats
+
+### 📊 GitHub Stats
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=soboure69&show_icons=true&theme=radical)
+#### 🔥 Activité Générale
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=soboure69&show_icons=true&theme=radical&count_private=true)
 
-### 🏆 GitHub Trophies
-![Trophies](https://github-profile-trophy.vercel.app/?username=soboure69&theme=dracula&margin-w=10)
+#### 🏆 Trophées GitHub
+![Trophies](https://github-profile-trophy.vercel.app/?username=soboure69&theme=dracula&margin-w=10&no-bg=true&no-frame=true)
 
-### 📊 Langages les plus utilisés
+#### 📚 Langages les plus utilisés
 ![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=soboure69&layout=compact&theme=radical)
+
+#### 📈 Contribution Graph (Heatmap)
+![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=soboure69&theme=react-dark&hide_border=true)
 
 </div>
 
