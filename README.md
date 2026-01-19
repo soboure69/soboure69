@@ -43,14 +43,9 @@
 
 ## 🚀 About Me
 
-Je suis *étudiant ingénieur* en 4ème année à *Polytech Lyon, spécialisé en Mathématiques Appliquées et Modélisation. Passionné par la **data science, le machine learning et l'ingénierie des données*, je transforme des problématiques complexes en solutions concrètes et exploitables.
+Je suis étudiant ingénieur à Polytech Lyon, spécialisé en Mathématiques Appliquées et Modélisation. Passionné par la **data science, le machine learning et l'ingénierie des données**, je transforme des problématiques complexes en solutions concrètes et exploitables.
 
-Je combine une *rigueur mathématique, un **esprit analytique* et une forte capacité à *communiquer mes résultats* pour créer de la valeur business réelle. Actuellement en recherche de *CDI Data Scientist / Data Engineer* ou *alternance* pour 2026-2027.
-
-### 🎓 Formation
-- *Cycle Ingénieur* | Polytech Lyon (2023-2027)
-  - Spécialisation : Data Science, Machine Learning, Deep Learning
-- *Licence Mathématiques Appliquées* | Université de Paris Cité (2021-2023)
+Je combine une rigueur mathématique, un esprit analytique et une forte capacité à communiquer mes résultats pour créer de la valeur business réelle. Actuellement en recherche de *CDI Data Scientist / Data Engineer / Data Analyst*.
 
 ---
 
@@ -58,11 +53,12 @@ Je combine une *rigueur mathématique, un **esprit analytique* et une forte capa
 
 ### 🐍 *Langages & Programmation*
 
+````
 Python (Avancé)       ████████████░░  Pandas, NumPy, Scikit-learn, TensorFlow
 SQL (Avancé)          ████████████░░  PostgreSQL, MySQL, Requêtes complexes
 R (Intermédiaire)     ████████░░░░░░  ggplot2, dplyr
 C++ (Intermédiaire)   ████████░░░░░░
-
+````
 
 ### 📈 *Data Science & ML*
 - *Supervised Learning* : Régression, Classification, Gradient Boosting (XGBoost, LightGBM)
