@@ -1,16 +1,19 @@
-
-# 👋 Soboure BELLO — Data Science Engineer
+# 👋 Soboure BELLO — Data Scientist & Quant Data Scientist
 
 <div align="center">
 
-### 📊 Polytech Lyon — Applied Mathematics & Modeling  
-### 🎯 Data Science • Machine Learning • Data Engineering
+### 🎓 Polytech Lyon — Mathématiques Appliquées & Modélisation (MAM)
+### 🎯 Data Science • Machine Learning • Quantitative Finance • Data Engineering
+
+[![Email](https://img.shields.io/badge/Email-soboure.bello%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:soboure.bello@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sobourebello-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sobourebello)
+[![Location](https://img.shields.io/badge/📍-Paris,_France-lightgrey?style=flat)](#)
 
 </div>
 
 ---
 
-## 🌟 GitHub Activity (Live)
+## 🌟 Activité GitHub (En direct)
 
 <div align="center">
 
@@ -21,189 +24,167 @@
 </div>
 
 ---
-## 📊 GitHub Stats
+
+## 📊 Statistiques GitHub
 
 <div align="center">
 
-### 🔥 Activité Générale  
+### 🔥 Activité Générale
 ![Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=soboure69&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
 
-### 🏆 Trophées  
+### 🏆 Trophées
 ![Trophies](https://github-profile-trophy.vercel.app/?username=soboure69&theme=dracula&margin-w=10)
 
-### 📚 Langages les plus utilisés  
+### 📚 Langages les plus utilisés
 ![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=soboure69&layout=compact&theme=radical)
 
-### 📈 Contribution Graph  
+### 📈 Graphique de contribution
 ![Graph](https://github-readme-activity-graph.vercel.app/graph?username=soboure69&theme=react-dark&hide_border=true)
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 🚀 À propos de moi
 
-Je suis étudiant ingénieur à Polytech Lyon, spécialisé en Mathématiques Appliquées et Modélisation. Passionné par la **data science, le machine learning et l'ingénierie des données**, je transforme des problématiques complexes en solutions concrètes et exploitables.
+Étudiant ingénieur en **Mathématiques Appliquées et Modélisation** à Polytech Lyon, je construis un profil hybride entre **Data Science / Machine Learning** et **Finance Quantitative**. Mon socle mathématique (probabilités, EDP, processus stochastiques, méthodes numériques) me permet d'aborder aussi bien des problématiques de *pricing d'options* et de *gestion des risques* que des projets classiques de *data engineering* et de *machine learning appliqué*.
 
-Je combine une rigueur mathématique, un esprit analytique et une forte capacité à communiquer mes résultats pour créer de la valeur business réelle. Actuellement en recherche de *CDI Data Scientist / Data Engineer / Data Analyst*.
+Je transforme des problématiques complexes — pricing, scoring de risque, prévision, recommandation — en solutions **rigoureuses, mesurables et déployables** (API, dashboards, applications SaaS). Je rejoins le **MSc Intelligence Artificielle** d'Epitech à la rentrée 2026 pour approfondir le Deep Learning et le MLOps, en parallèle de la fin de mon cursus ingénieur.
 
----
-
-## 💡 Core Competencies
-
-### 🐍 *Langages & Programmation*
-
-````
-Python (Avancé)       ████████████░░  Pandas, NumPy, Scikit-learn, TensorFlow
-SQL (Avancé)          ████████████░░  PostgreSQL, MySQL, Requêtes complexes
-R (Intermédiaire)     ████████░░░░░░  ggplot2, dplyr
-C++ (Intermédiaire)   ████████░░░░░░
-````
-
-### 📈 *Data Science & ML*
-- *Supervised Learning* : Régression, Classification, Gradient Boosting (XGBoost, LightGBM)
-- *Unsupervised Learning* : Clustering (K-Means, DBSCAN), Dimensionality Reduction (PCA)
-- *Deep Learning* : Neural Networks, CNN, RNN, LSTM, Transformers
-- *NLP* : Text classification, Sentiment analysis, Word embeddings
-- *Model Optimization* : Hyperparameter tuning, Cross-validation, Feature engineering
-
-### 🔧 *Data Engineering & Tools*
-- *Orchestration* : Apache Airflow
-- *Databases* : PostgreSQL, MySQL, SQLAlchemy ORM
-- *Visualization* : Tableau, Power BI, Plotly, Matplotlib, Seaborn
-- *Deployment* : Docker, Streamlit, Dash, Heroku
-- *Cloud* : AWS (S3, EC2), Google Cloud (notions)
-- *MLOps* : Git/GitHub, MLflow, Jupyter Notebook
-
-### 🎯 *Soft Skills*
-✓ Communication de résultats data  
-✓ Présentation aux stakeholders non-techniques  
-✓ Résolution analytique de problèmes  
-✓ Collaboration équipes cross-fonctionnelles  
+Actuellement en recherche d'**alternance / stage Data Scientist · Quant · Data Engineer**.
 
 ---
 
-## 🏆 Portfolio Projects
+## 💡 Compétences clés
 
-### 1️⃣ *Machine Learning - Prédiction Churn Clients* 
-Identification de 87% des clients à risque de départ
+### 🐍 Langages & Programmation
+```
+Python (Avancé)        ████████████░░  Pandas, NumPy, PyTorch, Scikit-learn, TensorFlow/Keras
+SQL (Avancé)            ████████████░░  PostgreSQL, MySQL, SQLAlchemy/SQLModel
+R (Intermédiaire)       ████████░░░░░░  Modèles de survie, statistiques
+C++ / MATLAB-Octave     ████████░░░░░░  Méthodes numériques, éléments/volumes finis
+```
 
-🎯 *Problématique* : Prédire les clients qui vont résilier leur contrat dans une entreprise télécommunications  
-📊 *Dataset* : 7043 clients | 26.5% taux churn  
-🤖 *Modèles* : Random Forest (86.1% accuracy) vs XGBoost (87.2%)  
-💰 *Impact* : Économie potentielle 100K€/an via retention ciblée  
-🔍 *Key Insights* :
-- Contrat mensuel = 3x plus de churn vs annuel
-- Tenure et charges clients = features critiques
-- Feature importance analysis + confusion matrix
+### 📈 Data Science, ML & Finance Quantitative
+- **Machine Learning** : Régression, classification, Random Forest, XGBoost, SVM, réseaux de neurones
+- **Deep Learning** : Physics-Informed Neural Networks (PINNs), Bi-LSTM, CNN
+- **Finance quantitative** : pricing d'options (Black–Scholes, Heston, Monte Carlo), calcul des Greeks, VaR, GARCH
+- **Modélisation actuarielle & risque** : modèles de survie (Kaplan-Meier, Cox, AFT), PD/LGD/ECL (IFRS 9, Bâle III), Solvabilité II
+- **Processus stochastiques** : chaînes de Markov, files d'attente (M/M/k), théorie de la ruine (Cramér-Lundberg), HMM
+- **Séries temporelles** : ARIMA/SARIMA, Box-Jenkins, GARCH, backtesting
 
-📚 *Stack* : Python • scikit-learn • XGBoost • pandas • Matplotlib • Seaborn  
-🔗 *GitHub* : [01_ML_Classique_Churn](https://github.com/soboure69/portfolio/01_ML_Classique_Churn)
-
----
-
-### 2️⃣ *Deep Learning - NLP Sentiment Analysis IMDB*
-Prédiction du sentiment en temps réel avec 92.3% d'accuracy
-
-🎯 *Problématique* : Classifier automatiquement les avis films en sentiments positifs/négatifs  
-📊 *Dataset* : 50K reviews IMDB | 10K vocabulaire  
-🤖 *Architecture* : Embedding (128 dims) → Bi-LSTM (64 units) → Dense layers  
-📈 *Performance* :
-- Accuracy: 92.3% | Precision: 91.5% | Recall: 93.1%
-- ROC-AUC: 0.975 | Inference: <500ms/review
-
-🌐 *Déploiement* : Streamlit app interactive (3 onglets : Predict, Analytics, About)  
-📚 *Stack* : TensorFlow • Keras • NLTK • Streamlit • Python  
-🔗 *Live Demo* : [sentiment-analysis-soboure69.streamlit.app](https://sentiment-analysis-soboure69.streamlit.app)  
-🔗 *GitHub* : [02_DL_NLP_Sentiment](https://github.com/soboure69/portfolio/02_DL_NLP_Sentiment)
+### 🔧 Data Engineering & Déploiement
+- **APIs & Backend** : FastAPI, Pydantic, SQLModel, SQLAlchemy
+- **Frontend / Dashboards** : Streamlit, Dash, React, Power BI (DAX, Power Query)
+- **Orchestration & Infra** : Apache Airflow, Docker, PostgreSQL
+- **MLOps & Outils** : Git/GitHub, MLflow (notions), Jupyter Notebook
+- **Paiement / SaaS** : intégration Stripe (multi-tenant, quotas, facturation)
 
 ---
 
-### 3️⃣ *Data Engineering - Pipeline ETL Multi-Sources*
-Orchestration automatisée de 1000+ records/jour
+## 🏆 Projets phares
 
-🎯 *Architecture* : Extraction (Reddit, Twitter, OpenWeatherMap) → Transformation → Chargement  
-📦 *Données* : 1000+ records/jour | Multi-sources APIs  
-🔄 *Workflow* :
-- Extractors Python (praw, tweepy, requests)
-- Cleaning, validation, deduplication, feature engineering
-- Chargement PostgreSQL via SQLAlchemy ORM
+### 💹 Finance quantitative & actuariat
 
-⚡ *Optimisation* : Réduction temps traitement de 60%  
-🛡️ *Robustesse* : Error handling, data quality checks, retry mechanisms  
-📚 *Stack* : Python • Apache Airflow • PostgreSQL • SQL • REST APIs  
-🔗 *GitHub* : [03_Data_Engineering_Pipeline](https://github.com/soboure69/portfolio/03_Data_Engineering_Pipeline)
+**1️⃣ NeuroPrice — Pricing d'options par Physics-Informed Neural Networks**
+Moteur de pricing (options vanilles, barrières, asiatiques, Heston, paniers multi-actifs) utilisant des PINNs comme alternative aux méthodes classiques (Black–Scholes, Monte Carlo, différences finies).
+- Formulation des EDP financières et du résidu PINN, implémentation PyTorch (1D et paramétrique)
+- Calcul des Greeks (Δ, Γ, Vega, Theta, Rho) par auto-différentiation
+- API FastAPI + dashboard Next.js, déployé en MVP SaaS
+📚 *Stack* : PyTorch • FastAPI • Next.js • EDP • Black–Scholes/Heston
 
----
+**2️⃣ Modèles de durée appliqués à la finance & assurance**
+Trois sous-projets : risque de crédit bancaire (PD 12 mois / lifetime, ECL IFRS 9), résiliation assurance (lapse), mortalité et tarification vie (Best Estimate, SCR Solvabilité II).
+- Courbes de survie Kaplan-Meier, tests log-rank, modèles de Cox et AFT (Weibull, log-normal)
+- Calcul PD Bâle III / IFRS 9 et lien avec le SCR Solvabilité II
+📚 *Stack* : R/Python • Cox/AFT • IFRS 9 • Solvabilité II
 
-### 4️⃣ *Dashboard Business - Système Recommandation E-commerce*
-Moteur recommandation intelligent & dashboard interactif
+**3️⃣ Chaînes de Markov, files d'attente & théorie de la ruine**
+Migration de rating de crédit, files M/M/k pour agences bancaires, modèle de ruine de Cramér-Lundberg, détection de régimes de marché (HMM).
+- Classe Python de migration de crédit avec test χ² de l'hypothèse markovienne
+- Optimisation du nombre de guichets (coût total vs SLA), coefficient d'ajustement et probabilité de ruine
+📚 *Stack* : Python • Markov • HMM • Simulation Monte Carlo
 
-🎯 *Fonctionnalité* : Content-based filtering avec cosine similarity  
-📊 *Interface* : 5 visualisations analytics interactives temps réel  
-💡 *UX* : Sélection produit → 5 recommandations similaires instantanées  
-⚡ *Performance* : Latence <500ms/requête  
-💰 *Impact Business* :
-- +25% panier moyen (simulé)
-- +40% CTR sur recommandations
-
-🌐 *Déploiement* : Heroku production  
-📚 *Stack* : Python • Dash • Plotly • scikit-learn • Heroku  
-🔗 *Live Demo* : [product-recommender-soboure69.herokuapp.com](https://product-recommender-soboure69.herokuapp.com)  
-🔗 *GitHub* : [04_Dashboard_Recommendation](https://github.com/soboure69/portfolio/04_Dashboard_Recommendation)
+**4️⃣ Séries temporelles en finance (volatilité, sinistres, taux)**
+Pipeline complet appliqué à la volatilité d'indices, aux sinistres d'assurance et aux taux d'intérêt (Euribor, OAT 10 ans).
+- Stationnarisation (ADF), identification Box-Jenkins, modèles ARIMA/SARIMA et GARCH
+- Backtest de VaR (95%/99%), comparaison à des baselines naïves
+📚 *Stack* : Python • ARIMA/SARIMA/GARCH • Yahoo Finance • FRED
 
 ---
 
-## 📚 Education & Certifications
+### 🧠 Data Science, ML & SaaS
 
-### 🎓 Diplômes
-- *Cycle Ingénieur Polytech Lyon* | 2023-2027
-  - Spécialisation Data Science, ML, Deep Learning, Optimisation
-  - Cours : ML Algorithms, Deep Learning, NLP, Computer Vision, Advanced Statistics, Databases, Big Data
-  
-- *Licence Mathématiques Appliquées* | Université de Paris Cité | 2021-2023
+**5️⃣ Customer Churn — Prédiction de désabonnement clients télécom**
+Prédiction du risque de résiliation sur 7 043 clients pour cibler les actions de fidélisation.
+- EDA, prétraitement (RFE, gestion du déséquilibre), modèles Random Forest / MLP / SVM avec GridSearchCV
+📚 *Stack* : Python • scikit-learn • EDA • Marketing analytique
+
+**6️⃣ Privacy SaaS — Plateforme d'anonymisation de données multi-tenant**
+SaaS d'anonymisation de fichiers CSV avec gestion des organisations, jobs, quotas et facturation Stripe (Free/Pro/Enterprise).
+- Backend FastAPI + SQLModel (auth JWT, rôles, profils d'anonymisation), frontend React
+📚 *Stack* : FastAPI • SQLModel • React • Stripe
+
+**7️⃣ DataWizFlow AI — Data copilot basé sur un LLM local**
+Plateforme d'interrogation de données en langage naturel (CSV, SQL) via un LLM local (Ollama).
+- Génération de requêtes SQL/pandas, interface web pour explications et visualisations
+📚 *Stack* : LLM / IA générative • Python • RAG
+
+**8️⃣ MovieLens API + Data App (Phase 1 & 2)**
+API REST FastAPI sur le dataset MovieLens avec SDK Python publié sur PyPI, complétée par une application Streamlit d'exploration (EDA, filtres, enrichissement IMDb/OMDb).
+📚 *Stack* : FastAPI • Pydantic • SQLAlchemy • Streamlit
+
+**9️⃣ Dashboard Power BI — Analyse des ventes**
+Tableau de bord interactif (Boutiques, Produits, Ventes) avec ETL Power Query, modèle en étoile et mesures DAX (CA, comparaisons N/N-1).
+📚 *Stack* : Power BI • Power Query • DAX
+
+**🔟 Pollution de l'air urbain — Projet data complet**
+Prédiction des concentrations de polluants (PM2.5, PM10, NO2, O3) à partir de données multi-sources (météo, trafic, population).
+- Random Forest vs réseau de neurones Keras, analyse d'importance des variables
+📚 *Stack* : pandas • scikit-learn • Keras
+
+🔗 **Portfolio complet** : [github.com/soboure69/portfolio](https://github.com/soboure69/portfolio)
+
+---
+
+## 📚 Formation
+
+- **MSc Intelligence Artificielle** — Epitech Lyon *(oct. 2026 – juin 2028)*
+  Deep Learning, MLOps, gestion de projets IA
+- **Cycle Ingénieur — Mathématiques Appliquées et Modélisation** — Polytech Lyon, Université Claude Bernard Lyon 1 *(2023 – 2027)*
+  Modélisation stochastique, méthodes numériques, HPC, statistiques avancées
+- **Licence Mathématiques Appliquées** — Université Paris Cité *(2021 – 2023)*
 
 ### 🏅 Certifications
-- Machine Learning Specialization - Stanford Online (Andrew Ng) | Coursera
-- Deep Learning Specialization - DeepLearning.AI | Coursera
-- TensorFlow Developer Certificate - Google (En cours)
-- SQL for Data Science - UC Davis | Coursera
-- Python for Data Science - IBM | DataCamp
+- Machine Learning Specialization — Stanford Online (Andrew Ng) | Coursera
+- Deep Learning Specialization — DeepLearning.AI | Coursera
+- SQL for Data Science — UC Davis | Coursera
+- Python for Data Science — IBM | DataCamp
 
 ---
 
-## 🎯 Qualités Personnelles
+## 🎯 Qualités personnelles
 
 | Qualité | Description |
 |---------|-------------|
-| 🧮 *Rigueur Mathématique* | Formation solide en mathématiques appliquées, modélisation statistique |
-| 🔬 *Esprit Analytique* | Résolution systématique de problèmes complexes, analyse critique |
-| 📊 *Synthèse & Communication* | Capacité à vulgariser travaux techniques à audiences non-spécialisées |
-| 🚀 *Autonomie & Proactivité* | Apprentissage continu, gestion projets autonome, curiosité constante |
-| 👥 *Travail Collaboratif* | Excellente intégration en équipes cross-fonctionnelles agiles |
-| 🌍 *Intérêt Sociétal* | Conscience de l'impact éthique des données et modèles |
+| 🧮 **Rigueur mathématique** | Solide formation en probabilités, EDP et modélisation stochastique |
+| 🔬 **Esprit analytique** | Approche méthodique des problèmes complexes, posture d'investigation |
+| 📊 **Communication** | Vulgarisation de travaux techniques pour audiences non-spécialisées |
+| 🚀 **Autonomie & apprentissage continu** | Auto-formation active sur la finance quantitative et le MLOps |
+| 👥 **Travail collaboratif** | Bonne intégration en équipe, à l'aise avec les méthodes agiles (Scrum) |
 
 ---
 
+## 🤝 Me contacter
 
-## 🤝 Let's Connect
-
-Vous êtes intéressé par une collaboration, une discussion technique ou une opportunité professionnelle ?
+Intéressé par une collaboration, une discussion technique ou une opportunité (alternance / stage Data Scientist, Quant, Data Engineer) ?
 
 | Plateforme | Lien |
 |-----------|------|
-| 📧 *Email* | [soboure.bello@gmail.com](mailto:soboure.bello@gmail.com) |
-| 💼 *LinkedIn* | [linkedin.com/in/sobourebello](https://www.linkedin.com/in/sobourebello) |
-| 🐙 *GitHub* | [github.com/soboure69](https://github.com/soboure69) |
-| 📍 *Localisation* | Paris, Île-de-France, France |
-
----
-
-## 📄 Additional Resources
-
-- 📑 *[Mon CV Détaillé](./CV_ATS.pdf)* - Version complète avec expériences et formations
-- 🎯 **[Portfolio Complet](https://github.com/soboure69/portfolio)** - Tous les projets data science
-- 💡 **[Blog Medium](https://medium.com/@soboure)** - Articles techniques ML/Data
+| 📧 Email | [soboure.bello@gmail.com](mailto:soboure.bello@gmail.com) |
+| 💼 LinkedIn | [linkedin.com/in/sobourebello](https://www.linkedin.com/in/sobourebello) |
+| 🐙 GitHub | [github.com/soboure69](https://github.com/soboure69) |
+| 📍 Localisation | Paris, Île-de-France, France |
 
 ---
 
@@ -217,4 +198,4 @@ Vous êtes intéressé par une collaboration, une discussion technique ou une op
 
 ---
 
-Last updated: December 2024
+*Dernière mise à jour : juillet 2026*
