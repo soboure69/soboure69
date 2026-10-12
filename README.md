@@ -30,16 +30,16 @@
 <div align="center">
 
 ### 🔥 Activité Générale
-![Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=soboure69&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
+![Activité générale](./github-metrics/general.svg)
 
 ### 🏆 Trophées
-![Trophies](https://github-profile-trophy.vercel.app/?username=soboure69&theme=dracula&margin-w=10)
+![Trophées](./github-metrics/achievements.svg)
 
 ### 📚 Langages les plus utilisés
-![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=soboure69&layout=compact&theme=radical)
+![Langages les plus utilisés](./github-metrics/languages.svg)
 
 ### 📈 Graphique de contribution
-![Graph](https://github-readme-activity-graph.vercel.app/graph?username=soboure69&theme=react-dark&hide_border=true)
+![Graphique de contribution](https://github-readme-activity-graph.vercel.app/graph?username=soboure69&theme=react-dark&hide_border=true)
 
 </div>
 
@@ -49,17 +49,15 @@
 
 Actuellement en **MSc Intelligence Artificielle** à Epitech Lyon, je capitalise sur mon double bagage d'ingénieur en mathématiques appliquées et modélisation (Polytech Lyon) pour concevoir et déployer des solutions data et IA à forte valeur ajoutée.
 
-​En parallèle de ma formation, je mets mes compétences en pratique en tant qu'alternant **Data, BI, Digitalisation et IA** chez Nigay, où j'interviens sur l'optimisation des processus, la Business Intelligence et l'intégration de l'intelligence artificielle au cœur des projets de l'entreprise.
+En parallèle de ma formation, je mets mes compétences en pratique en tant qu'alternant **Data, BI, Digitalisation et IA** chez Nigay, où j'interviens sur l'optimisation des processus, la Business Intelligence et l'intégration de l'intelligence artificielle au cœur des projets de l'entreprise.
 
-​À la croisée du Data Analyst, du Data Scientist et du Data Engineer, je combine :
+À la croisée du Data Analyst, du Data Scientist et du Data Engineer, je combine :
 
-- ​**Modélisation & IA** : Machine Learning, Deep Learning (PyTorch, TensorFlow) et méthodes mathématiques avancées.
+- **Modélisation & IA** : Machine Learning, Deep Learning (PyTorch, TensorFlow) et méthodes mathématiques avancées.
+- **Data Engineering & Ops** : pipelines de données, automatisation, bases de données SQL et environnements cloud (GCP, Docker, Airflow).
+- **Business Intelligence & Digitalisation** : restitution de la donnée, tableaux de bord décisionnels (Power BI) et accompagnement des projets de transformation numérique.
 
-- ​**Data Engineering & Ops** : Pipelines de données, automatisation, bases de données SQL et environnements cloud (GCP, Docker, Airflow).
-
-- ​**Business Intelligence & Digitalisation** : Restitution de la donnée, tableaux de bord décisionnels (Power BI) et accompagnement des projets de transformation numérique.
-
-​Curieux, rigoureux et passionné par la résolution de problèmes complexes, je cherche continuellement à transformer la donnée en un véritable levier stratégique de performance et d'innovation.
+Curieux, rigoureux et passionné par la résolution de problèmes complexes, je cherche continuellement à transformer la donnée en un véritable levier stratégique de performance et d'innovation.
 
 ---
 
@@ -68,13 +66,13 @@ Actuellement en **MSc Intelligence Artificielle** à Epitech Lyon, je capitalise
 ### 🐍 Langages & Programmation
 ```
 Python (Avancé)        ████████████░░  Pandas, NumPy, PyTorch, Scikit-learn, TensorFlow/Keras
-SQL (Avancé)            ████████████░░  PostgreSQL, MySQL, SQLAlchemy/SQLModel
-R (Intermédiaire)       ████████░░░░░░  Modèles de survie, statistiques
-C++ / MATLAB-Octave     ████████░░░░░░  Méthodes numériques, éléments/volumes finis
+SQL (Avancé)           ████████████░░  PostgreSQL, MySQL, SQLAlchemy/SQLModel
+R (Intermédiaire)      ████████░░░░░░  Modèles de survie, statistiques
+C++ / MATLAB-Octave    ████████░░░░░░  Méthodes numériques, éléments/volumes finis
 ```
 
 ### 📈 Data Science, ML & Finance Quantitative
-- **Machine Learning** : Régression, classification, Random Forest, XGBoost, SVM, réseaux de neurones
+- **Machine Learning** : régression, classification, Random Forest, XGBoost, SVM, réseaux de neurones
 - **Deep Learning** : Physics-Informed Neural Networks (PINNs), Bi-LSTM, CNN
 - **Finance quantitative** : pricing d'options (Black–Scholes, Heston, Monte Carlo), calcul des Greeks, VaR, GARCH
 - **Modélisation actuarielle & risque** : modèles de survie (Kaplan-Meier, Cox, AFT), PD/LGD/ECL (IFRS 9, Bâle III), Solvabilité II
@@ -99,24 +97,28 @@ Moteur de pricing (options vanilles, barrières, asiatiques, Heston, paniers mul
 - Formulation des EDP financières et du résidu PINN, implémentation PyTorch (1D et paramétrique)
 - Calcul des Greeks (Δ, Γ, Vega, Theta, Rho) par auto-différentiation
 - API FastAPI + dashboard Next.js, déployé en MVP SaaS
+
 📚 *Stack* : PyTorch • FastAPI • Next.js • EDP • Black–Scholes/Heston
 
 **2️⃣ Modèles de durée appliqués à la finance & assurance**
 Trois sous-projets : risque de crédit bancaire (PD 12 mois / lifetime, ECL IFRS 9), résiliation assurance (lapse), mortalité et tarification vie (Best Estimate, SCR Solvabilité II).
 - Courbes de survie Kaplan-Meier, tests log-rank, modèles de Cox et AFT (Weibull, log-normal)
 - Calcul PD Bâle III / IFRS 9 et lien avec le SCR Solvabilité II
+
 📚 *Stack* : R/Python • Cox/AFT • IFRS 9 • Solvabilité II
 
 **3️⃣ Chaînes de Markov, files d'attente & théorie de la ruine**
 Migration de rating de crédit, files M/M/k pour agences bancaires, modèle de ruine de Cramér-Lundberg, détection de régimes de marché (HMM).
 - Classe Python de migration de crédit avec test χ² de l'hypothèse markovienne
 - Optimisation du nombre de guichets (coût total vs SLA), coefficient d'ajustement et probabilité de ruine
+
 📚 *Stack* : Python • Markov • HMM • Simulation Monte Carlo
 
 **4️⃣ Séries temporelles en finance (volatilité, sinistres, taux)**
 Pipeline complet appliqué à la volatilité d'indices, aux sinistres d'assurance et aux taux d'intérêt (Euribor, OAT 10 ans).
 - Stationnarisation (ADF), identification Box-Jenkins, modèles ARIMA/SARIMA et GARCH
-- Backtest de VaR (95%/99%), comparaison à des baselines naïves
+- Backtest de VaR (95 % / 99 %), comparaison à des baselines naïves
+
 📚 *Stack* : Python • ARIMA/SARIMA/GARCH • Yahoo Finance • FRED
 
 ---
@@ -126,29 +128,35 @@ Pipeline complet appliqué à la volatilité d'indices, aux sinistres d'assuranc
 **5️⃣ Customer Churn — Prédiction de désabonnement clients télécom**
 Prédiction du risque de résiliation sur 7 043 clients pour cibler les actions de fidélisation.
 - EDA, prétraitement (RFE, gestion du déséquilibre), modèles Random Forest / MLP / SVM avec GridSearchCV
+
 📚 *Stack* : Python • scikit-learn • EDA • Marketing analytique
 
 **6️⃣ Privacy SaaS — Plateforme d'anonymisation de données multi-tenant**
 SaaS d'anonymisation de fichiers CSV avec gestion des organisations, jobs, quotas et facturation Stripe (Free/Pro/Enterprise).
 - Backend FastAPI + SQLModel (auth JWT, rôles, profils d'anonymisation), frontend React
+
 📚 *Stack* : FastAPI • SQLModel • React • Stripe
 
 **7️⃣ DataWizFlow AI — Data copilot basé sur un LLM local**
 Plateforme d'interrogation de données en langage naturel (CSV, SQL) via un LLM local (Ollama).
 - Génération de requêtes SQL/pandas, interface web pour explications et visualisations
+
 📚 *Stack* : LLM / IA générative • Python • RAG
 
 **8️⃣ MovieLens API + Data App (Phase 1 & 2)**
 API REST FastAPI sur le dataset MovieLens avec SDK Python publié sur PyPI, complétée par une application Streamlit d'exploration (EDA, filtres, enrichissement IMDb/OMDb).
+
 📚 *Stack* : FastAPI • Pydantic • SQLAlchemy • Streamlit
 
 **9️⃣ Dashboard Power BI — Analyse des ventes**
 Tableau de bord interactif (Boutiques, Produits, Ventes) avec ETL Power Query, modèle en étoile et mesures DAX (CA, comparaisons N/N-1).
+
 📚 *Stack* : Power BI • Power Query • DAX
 
 **🔟 Pollution de l'air urbain — Projet data complet**
 Prédiction des concentrations de polluants (PM2.5, PM10, NO2, O3) à partir de données multi-sources (météo, trafic, population).
 - Random Forest vs réseau de neurones Keras, analyse d'importance des variables
+
 📚 *Stack* : pandas • scikit-learn • Keras
 
 🔗 **Portfolio complet** : [github.com/soboure69/portfolio](https://github.com/soboure69/portfolio)
@@ -157,7 +165,7 @@ Prédiction des concentrations de polluants (PM2.5, PM10, NO2, O3) à partir de 
 
 ## 📚 Formation
 
-- **MSc Intelligence Artificielle** — Epitech Lyon *(oct. 2026 – sept 2028)*
+- **MSc Intelligence Artificielle** — Epitech Lyon *(oct. 2026 – sept. 2028)*
   Deep Learning, MLOps, gestion de projets IA
 - **Cycle Ingénieur — Mathématiques Appliquées et Modélisation** — Polytech Lyon, Université Claude Bernard Lyon 1 *(2023 – 2026)*
   Modélisation stochastique, méthodes numériques, HPC, statistiques avancées
@@ -185,14 +193,14 @@ Prédiction des concentrations de polluants (PM2.5, PM10, NO2, O3) à partir de 
 
 ## 🤝 Me contacter
 
-Intéressé par une collaboration, une discussion technique ou une opportunité (alternance / stage Data Scientist, Quant, Data Engineer) ?
+Intéressé par une collaboration, une discussion technique ou une opportunité en Data, IA ou Finance Quantitative ?
 
 | Plateforme | Lien |
 |-----------|------|
 | 📧 Email | [soboure.bello@gmail.com](mailto:soboure.bello@gmail.com) |
 | 💼 LinkedIn | [linkedin.com/in/sobourebello](https://www.linkedin.com/in/sobourebello) |
 | 🐙 GitHub | [github.com/soboure69](https://github.com/soboure69) |
-| 📍 Localisation | Paris, Île-de-France, France |
+| 📍 Localisation | Lyon, Auvergne-Rhône-Alpes, France |
 
 ---
 
@@ -200,10 +208,10 @@ Intéressé par une collaboration, une discussion technique ou une opportunité 
 
 ### ⭐ Si mon travail vous plaît, n'hésitez pas à mettre une star ⭐
 
-*"Transformer les données en insights, les insights en décisions, les décisions en impact."*
+*« Transformer les données en insights, les insights en décisions, les décisions en impact. »*
 
 </div>
 
 ---
 
-*Dernière mise à jour : juillet 2026*
+*Dernière mise à jour : octobre 2026*
