@@ -1,13 +1,13 @@
-# 👋 Soboure BELLO — Data Scientist & Quant Data Scientist
+# 👋 Soboure BELLO — Ingénieur Data & IA
 
 <div align="center">
 
-### 🎓 Polytech Lyon — Mathématiques Appliquées & Modélisation (MAM)
-### 🎯 Data Science • Machine Learning • Quantitative Finance • Data Engineering
+### 🎓 Epitech Lyon — Architecte Système d'Information
+### 🎯 Data Science • Machine Learning • Intelligence Artificielle • Data Engineering
 
 [![Email](https://img.shields.io/badge/Email-soboure.bello%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:soboure.bello@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sobourebello-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sobourebello)
-[![Location](https://img.shields.io/badge/📍-Paris,_France-lightgrey?style=flat)](#)
+[![Location](https://img.shields.io/badge/📍-Lyon,_France-lightgrey?style=flat)](#)
 
 </div>
 
@@ -47,11 +47,19 @@
 
 ## 🚀 À propos de moi
 
-Étudiant ingénieur en **Mathématiques Appliquées et Modélisation** à Polytech Lyon, je construis un profil hybride entre **Data Science / Machine Learning** et **Finance Quantitative**. Mon socle mathématique (probabilités, EDP, processus stochastiques, méthodes numériques) me permet d'aborder aussi bien des problématiques de *pricing d'options* et de *gestion des risques* que des projets classiques de *data engineering* et de *machine learning appliqué*.
+Actuellement en **MSc Intelligence Artificielle** à Epitech Lyon, je capitalise sur mon double bagage d'ingénieur en mathématiques appliquées et modélisation (Polytech Lyon) pour concevoir et déployer des solutions data et IA à forte valeur ajoutée.
 
-Je transforme des problématiques complexes — pricing, scoring de risque, prévision, recommandation — en solutions **rigoureuses, mesurables et déployables** (API, dashboards, applications SaaS). Je rejoins le **MSc Intelligence Artificielle** d'Epitech à la rentrée 2026 pour approfondir le Deep Learning et le MLOps, en parallèle de la fin de mon cursus ingénieur.
+​En parallèle de ma formation, je mets mes compétences en pratique en tant qu'alternant **Data, BI, Digitalisation et IA** chez Nigay, où j'interviens sur l'optimisation des processus, la Business Intelligence et l'intégration de l'intelligence artificielle au cœur des projets de l'entreprise.
 
-Actuellement en recherche d'**alternance / stage Data Scientist · Quant · Data Engineer**.
+​À la croisée du Data Analyst, du Data Scientist et du Data Engineer, je combine :
+
+- ​**Modélisation & IA** : Machine Learning, Deep Learning (PyTorch, TensorFlow) et méthodes mathématiques avancées.
+
+- ​**Data Engineering & Ops** : Pipelines de données, automatisation, bases de données SQL et environnements cloud (GCP, Docker, Airflow).
+
+- ​**Business Intelligence & Digitalisation** : Restitution de la donnée, tableaux de bord décisionnels (Power BI) et accompagnement des projets de transformation numérique.
+
+​Curieux, rigoureux et passionné par la résolution de problèmes complexes, je cherche continuellement à transformer la donnée en un véritable levier stratégique de performance et d'innovation.
 
 ---
 
@@ -149,9 +157,9 @@ Prédiction des concentrations de polluants (PM2.5, PM10, NO2, O3) à partir de 
 
 ## 📚 Formation
 
-- **MSc Intelligence Artificielle** — Epitech Lyon *(oct. 2026 – juin 2028)*
+- **MSc Intelligence Artificielle** — Epitech Lyon *(oct. 2026 – sept 2028)*
   Deep Learning, MLOps, gestion de projets IA
-- **Cycle Ingénieur — Mathématiques Appliquées et Modélisation** — Polytech Lyon, Université Claude Bernard Lyon 1 *(2023 – 2027)*
+- **Cycle Ingénieur — Mathématiques Appliquées et Modélisation** — Polytech Lyon, Université Claude Bernard Lyon 1 *(2023 – 2026)*
   Modélisation stochastique, méthodes numériques, HPC, statistiques avancées
 - **Licence Mathématiques Appliquées** — Université Paris Cité *(2021 – 2023)*
 
