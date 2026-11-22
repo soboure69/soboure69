@@ -1,15 +1,10 @@
-# 👋 Soboure BELLO — Ingénieur Data & IA
+# Soboure BELLO
 
-<div align="center">
+**Data & IA · mathématiques appliquées et modélisation**
 
-### 🎓 Epitech Lyon — Architecte Système d'Information
-### 🎯 Data Science • Machine Learning • Intelligence Artificielle • Data Engineering
+Alternant *Data, Digitalisation & IA* chez Nigay et étudiant en MSc Intelligence Artificielle à Epitech Lyon. Formé aux mathématiques appliquées à Polytech Lyon, je construis des modèles et des applications de données, je mesure ce qu'ils valent face à des références simples, et je les livre testés et documentés.
 
-[![Email](https://img.shields.io/badge/Email-soboure.bello%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:soboure.bello@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sobourebello-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sobourebello)
-[![Location](https://img.shields.io/badge/📍-Lyon,_France-lightgrey?style=flat)](#)
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/sobourebello) · Auvergne-Rhône-Alpes, France
 
 ---
 
@@ -45,173 +40,79 @@
 
 ---
 
-## 🚀 À propos de moi
+## Projets
 
-Actuellement en **MSc Intelligence Artificielle** à Epitech Lyon, je capitalise sur mon double bagage d'ingénieur en mathématiques appliquées et modélisation (Polytech Lyon) pour concevoir et déployer des solutions data et IA à forte valeur ajoutée.
+| Projet | Problème | Ce que montre le projet | Preuves |
+|---|---|---|---|
+| [**Hackathon Mobility Citiz**](https://github.com/soboure69/hackathon-mobility-citiz) | Où implanter des stations d'autopartage pour couvrir le plus d'habitants sous un budget ? | Pipeline de données ouvertes géospatiales, optimisation en nombres entiers | 146 tests · [vidéo](https://github.com/soboure69/hackathon-mobility-citiz/releases/tag/v1.0) |
+| [**CinéData**](https://github.com/soboure69/Movie-Backend) | Rendre un jeu de données de films interrogeable et exploitable | API REST, SDK publié, application déployée | 40 tests en CI · [API](https://movie-backend-x8iq.onrender.com/docs) · [PyPI](https://pypi.org/project/films-sdk-sbre/) · [application](https://movies-analytics-by-soboure-bello.streamlit.app/) |
+| [**Customer Churn**](https://github.com/soboure69/Customer-Churn) | Repérer les clients d'un opérateur télécom qui risquent de partir | Apprentissage supervisé évalué sans fuite, choix du seuil de décision | Notebook réexécuté de bout en bout · `predict.py` vérifié |
+| [**DataWizFlow AI**](https://github.com/soboure69/datawizflow-ai) | Interroger ses données en langage naturel sans les envoyer à un service externe | Application LLM locale conçue avec des garde-fous | 41 tests · captures dans le README |
 
-En parallèle de ma formation, je mets mes compétences en pratique en tant qu'alternant **Data, BI, Digitalisation et IA** chez Nigay, où j'interviens sur l'optimisation des processus, la Business Intelligence et l'intégration de l'intelligence artificielle au cœur des projets de l'entreprise.
+### Hackathon Mobility Citiz — aide à l'implantation de stations
 
-À la croisée du Data Analyst, du Data Scientist et du Data Engineer, je combine :
+*Hackathon Epitech × Citiz, 20–21 octobre 2026, réalisé seul.*
 
-- **Modélisation & IA** : Machine Learning, Deep Learning (PyTorch, TensorFlow) et méthodes mathématiques avancées.
-- **Data Engineering & Ops** : pipelines de données, automatisation, bases de données SQL et environnements cloud (GCP, Docker, Airflow).
-- **Business Intelligence & Digitalisation** : restitution de la donnée, tableaux de bord décisionnels (Power BI) et accompagnement des projets de transformation numérique.
+- **Méthode.** Ingestion de cinq sources ouvertes (GTFS, GBFS, OpenStreetMap, INSEE Filosofi, Admin Express) en couches bronze / silver / gold avec manifestes de traçabilité ; accessibilité à 5 minutes sur le réseau piéton réel ; couverture maximale sous budget résolue en programmation linéaire en nombres entiers (PuLP/CBC), contrôlée par un algorithme glouton, avec une variante équité.
+- **Résultat (CA de La Rochelle, scénario de référence).** 10 stations pour 85 000 € sur 3 ans couvrent 18 816 habitants de plus ; la couverture Citiz passe de 9,8 % à 20,6 %.
+- **Limites.** Le modèle prédictif de fréquentation n'a pas été livré ; les coûts sont des hypothèses de simulation.
 
-Curieux, rigoureux et passionné par la résolution de problèmes complexes, je cherche continuellement à transformer la donnée en un véritable levier stratégique de performance et d'innovation.
+### CinéData — API, SDK et application MovieLens
 
----
+*Projet personnel, en deux dépôts : [Movie-Backend](https://github.com/soboure69/Movie-Backend) (API et SDK) et [Movies-Analytics](https://github.com/soboure69/Movies-Analytics) (analyse et application).*
 
-## 💡 Compétences clés
+- **Construit.** Base SQLite et API FastAPI de 11 points d'accès déployée sur Render ; SDK Python `films-sdk-sbre` publié sur PyPI par GitHub Actions, avec nouvelles tentatives automatiques ; notebooks d'analyse et application Streamlit qui consomment l'API via le SDK.
+- **Qualité.** 31 tests de l'API et 9 du SDK lancés à chaque poussée. En écrivant ces tests, j'ai trouvé et corrigé deux défauts en production : une limite négative qui contournait le plafond de pagination (100 836 lignes renvoyées d'un coup) et des erreurs 500 sur 8 films sans identifiant TMDb. La clé de l'API d'affiches a été retirée du code et des données.
+- **Limites.** API en lecture seule ; hébergement gratuit qui se met en veille (30 à 60 s au premier appel).
 
-### 🐍 Langages & Programmation
-```
-Python (Avancé)        ████████████░░  Pandas, NumPy, PyTorch, Scikit-learn, TensorFlow/Keras
-SQL (Avancé)           ████████████░░  PostgreSQL, MySQL, SQLAlchemy/SQLModel
-R (Intermédiaire)      ████████░░░░░░  Modèles de survie, statistiques
-C++ / MATLAB-Octave    ████████░░░░░░  Méthodes numériques, éléments/volumes finis
-```
+### Customer Churn — prédiction du désabonnement
 
-### 📈 Data Science, ML & Finance Quantitative
-- **Machine Learning** : régression, classification, Random Forest, XGBoost, SVM, réseaux de neurones
-- **Deep Learning** : Physics-Informed Neural Networks (PINNs), Bi-LSTM, CNN
-- **Finance quantitative** : pricing d'options (Black–Scholes, Heston, Monte Carlo), calcul des Greeks, VaR, GARCH
-- **Modélisation actuarielle & risque** : modèles de survie (Kaplan-Meier, Cox, AFT), PD/LGD/ECL (IFRS 9, Bâle III), Solvabilité II
-- **Processus stochastiques** : chaînes de Markov, files d'attente (M/M/k), théorie de la ruine (Cramér-Lundberg), HMM
-- **Séries temporelles** : ARIMA/SARIMA, Box-Jenkins, GARCH, backtesting
+*Projet de fin de semestre, Polytech Lyon (3e année, 2024 – 2025). Jeu public Telco (7 032 clients), repris et corrigé en 2026.*
 
-### 🔧 Data Engineering & Déploiement
-- **APIs & Backend** : FastAPI, Pydantic, SQLModel, SQLAlchemy
-- **Frontend / Dashboards** : Streamlit, Dash, React, Power BI (DAX, Power Query)
-- **Orchestration & Infra** : Apache Airflow, Docker, PostgreSQL
-- **MLOps & Outils** : Git/GitHub, MLflow (notions), Jupyter Notebook
-- **Paiement / SaaS** : intégration Stripe (multi-tenant, quotas, facturation)
+- **Méthode.** Régression logistique à classes pondérées, choisie par validation croisée sans fuite parmi cinq modèles ; seuil de décision étudié sur des probabilités hors pli, puis selon la capacité de contact et un scénario de coûts.
+- **Résultat.** F1 de 0,628 sur le test (précision 0,51, rappel 0,81), contre 0,564 pour la règle « contrat mensuel = churn » : un gain réel mais modeste, présenté comme tel.
+- **Ce que j'ai corrigé.** Deux variables constantes à cause d'un encodage erroné, un script de prédiction qui ne fonctionnait pas, et des scores de validation croisée gonflés par un sur-échantillonnage fait avant la validation.
 
----
+### DataWizFlow AI — interroger ses données en langage naturel
 
-## 🏆 Projets phares
+*Projet personnel commencé en septembre 2025. La version actuelle est utilisable et le projet continue d'évoluer.*
 
-### 💹 Finance quantitative & actuariat
-
-**1️⃣ NeuroPrice — Pricing d'options par Physics-Informed Neural Networks**
-Moteur de pricing (options vanilles, barrières, asiatiques, Heston, paniers multi-actifs) utilisant des PINNs comme alternative aux méthodes classiques (Black–Scholes, Monte Carlo, différences finies).
-- Formulation des EDP financières et du résidu PINN, implémentation PyTorch (1D et paramétrique)
-- Calcul des Greeks (Δ, Γ, Vega, Theta, Rho) par auto-différentiation
-- API FastAPI + dashboard Next.js, déployé en MVP SaaS
-
-📚 *Stack* : PyTorch • FastAPI • Next.js • EDP • Black–Scholes/Heston
-
-**2️⃣ Modèles de durée appliqués à la finance & assurance**
-Trois sous-projets : risque de crédit bancaire (PD 12 mois / lifetime, ECL IFRS 9), résiliation assurance (lapse), mortalité et tarification vie (Best Estimate, SCR Solvabilité II).
-- Courbes de survie Kaplan-Meier, tests log-rank, modèles de Cox et AFT (Weibull, log-normal)
-- Calcul PD Bâle III / IFRS 9 et lien avec le SCR Solvabilité II
-
-📚 *Stack* : R/Python • Cox/AFT • IFRS 9 • Solvabilité II
-
-**3️⃣ Chaînes de Markov, files d'attente & théorie de la ruine**
-Migration de rating de crédit, files M/M/k pour agences bancaires, modèle de ruine de Cramér-Lundberg, détection de régimes de marché (HMM).
-- Classe Python de migration de crédit avec test χ² de l'hypothèse markovienne
-- Optimisation du nombre de guichets (coût total vs SLA), coefficient d'ajustement et probabilité de ruine
-
-📚 *Stack* : Python • Markov • HMM • Simulation Monte Carlo
-
-**4️⃣ Séries temporelles en finance (volatilité, sinistres, taux)**
-Pipeline complet appliqué à la volatilité d'indices, aux sinistres d'assurance et aux taux d'intérêt (Euribor, OAT 10 ans).
-- Stationnarisation (ADF), identification Box-Jenkins, modèles ARIMA/SARIMA et GARCH
-- Backtest de VaR (95 % / 99 %), comparaison à des baselines naïves
-
-📚 *Stack* : Python • ARIMA/SARIMA/GARCH • Yahoo Finance • FRED
+- **Construit.** Application Streamlit qui traduit une question en SQL avec un LLM local (Ollama), affiche et exporte le résultat, et propose des graphiques à partir d'une spécification JSON validée — aucun code généré n'est exécuté.
+- **Garde-fous.** SQL limité à une instruction en lecture, connexion en lecture seule côté serveur, délai maximal (y compris sur SQLite), mots de passe de connexion chiffrés, image Docker sans secrets.
+- **Limites.** Le filtre SQL ne remplace pas un compte en lecture seule ; SQL Server n'a pas été testé sur un vrai serveur.
 
 ---
 
-### 🧠 Data Science, ML & SaaS
+## Comment je travaille
 
-**5️⃣ Customer Churn — Prédiction de désabonnement clients télécom**
-Prédiction du risque de résiliation sur 7 043 clients pour cibler les actions de fidélisation.
-- EDA, prétraitement (RFE, gestion du déséquilibre), modèles Random Forest / MLP / SVM avec GridSearchCV
+- **Comparer à une référence simple** avant de conclure : règle métier pour le churn, algorithme glouton pour l'optimisation.
+- **Tester ce qui compte** et l'automatiser : suites `pytest` sur CinéData, le hackathon Citiz et DataWizFlow AI, lancées par GitHub Actions sur CinéData.
+- **Écrire les limites** dans chaque README, au même niveau que les résultats.
+- **Ne jamais publier de secret** : clés et mots de passe lus depuis l'environnement ou des fichiers ignorés par Git.
+- **Rendre reproductible** : graines fixées, versions figées, notebooks réexécutés de haut en bas avant de recopier un chiffre.
 
-📚 *Stack* : Python • scikit-learn • EDA • Marketing analytique
+## Compétences, et où les voir
 
-**6️⃣ Privacy SaaS — Plateforme d'anonymisation de données multi-tenant**
-SaaS d'anonymisation de fichiers CSV avec gestion des organisations, jobs, quotas et facturation Stripe (Free/Pro/Enterprise).
-- Backend FastAPI + SQLModel (auth JWT, rôles, profils d'anonymisation), frontend React
+| Domaine | Outils | Où |
+|---|---|---|
+| Modélisation et apprentissage | scikit-learn, imbalanced-learn, validation croisée, choix de seuil | Customer Churn |
+| Optimisation | programmation linéaire en nombres entiers (PuLP/CBC) | Hackathon Citiz |
+| Données géospatiales | GeoPandas, OSMnx, NetworkX, GTFS/GBFS | Hackathon Citiz |
+| API et logiciel | FastAPI, SQLAlchemy, Pydantic, pytest, packaging PyPI | CinéData |
+| LLM et applications | Ollama (local), Streamlit | DataWizFlow AI |
+| Déploiement et CI | Docker, GitHub Actions, Render, Streamlit Community Cloud | CinéData, DataWizFlow AI |
 
-📚 *Stack* : FastAPI • SQLModel • React • Stripe
+## Parcours
 
-**7️⃣ DataWizFlow AI — Data copilot basé sur un LLM local**
-Plateforme d'interrogation de données en langage naturel (CSV, SQL) via un LLM local (Ollama).
-- Génération de requêtes SQL/pandas, interface web pour explications et visualisations
+- **2026 – 2028 · MSc Intelligence Artificielle**, Epitech Lyon, en alternance (titre RNCP niveau 7 *Architecte des systèmes d'information*).
+- **Depuis octobre 2026 · Alternant Data, Digitalisation & IA**, Nigay (fabricant de caramel, Feurs).
+- **2023 – 2026 · Cycle ingénieur Mathématiques appliquées et modélisation**, Polytech Lyon — parcours suivi jusqu'en 4e année.
+- **2021 – 2023 · Licence de mathématiques appliquées**, Université Paris Cité.
 
-📚 *Stack* : LLM / IA générative • Python • RAG
+## Autres travaux
 
-**8️⃣ MovieLens API + Data App (Phase 1 & 2)**
-API REST FastAPI sur le dataset MovieLens avec SDK Python publié sur PyPI, complétée par une application Streamlit d'exploration (EDA, filtres, enrichissement IMDb/OMDb).
+Projets plus anciens ou pas encore remis au niveau des projets ci-dessus.
 
-📚 *Stack* : FastAPI • Pydantic • SQLAlchemy • Streamlit
-
-**9️⃣ Dashboard Power BI — Analyse des ventes**
-Tableau de bord interactif (Boutiques, Produits, Ventes) avec ETL Power Query, modèle en étoile et mesures DAX (CA, comparaisons N/N-1).
-
-📚 *Stack* : Power BI • Power Query • DAX
-
-**🔟 Pollution de l'air urbain — Projet data complet**
-Prédiction des concentrations de polluants (PM2.5, PM10, NO2, O3) à partir de données multi-sources (météo, trafic, population).
-- Random Forest vs réseau de neurones Keras, analyse d'importance des variables
-
-📚 *Stack* : pandas • scikit-learn • Keras
-
-🔗 **Portfolio complet** : [github.com/soboure69/portfolio](https://github.com/soboure69/portfolio)
-
----
-
-## 📚 Formation
-
-- **MSc Intelligence Artificielle** — Epitech Lyon *(oct. 2026 – sept. 2028)*
-  Deep Learning, MLOps, gestion de projets IA
-- **Cycle Ingénieur — Mathématiques Appliquées et Modélisation** — Polytech Lyon, Université Claude Bernard Lyon 1 *(2023 – 2026)*
-  Modélisation stochastique, méthodes numériques, HPC, statistiques avancées
-- **Licence Mathématiques Appliquées** — Université Paris Cité *(2021 – 2023)*
-
-### 🏅 Certifications
-- Machine Learning Specialization — Stanford Online (Andrew Ng) | Coursera
-- Deep Learning Specialization — DeepLearning.AI | Coursera
-- SQL for Data Science — UC Davis | Coursera
-- Python for Data Science — IBM | DataCamp
-
----
-
-## 🎯 Qualités personnelles
-
-| Qualité | Description |
-|---------|-------------|
-| 🧮 **Rigueur mathématique** | Solide formation en probabilités, EDP et modélisation stochastique |
-| 🔬 **Esprit analytique** | Approche méthodique des problèmes complexes, posture d'investigation |
-| 📊 **Communication** | Vulgarisation de travaux techniques pour audiences non-spécialisées |
-| 🚀 **Autonomie & apprentissage continu** | Auto-formation active sur la finance quantitative et le MLOps |
-| 👥 **Travail collaboratif** | Bonne intégration en équipe, à l'aise avec les méthodes agiles (Scrum) |
-
----
-
-## 🤝 Me contacter
-
-Intéressé par une collaboration, une discussion technique ou une opportunité en Data, IA ou Finance Quantitative ?
-
-| Plateforme | Lien |
-|-----------|------|
-| 📧 Email | [soboure.bello@gmail.com](mailto:soboure.bello@gmail.com) |
-| 💼 LinkedIn | [linkedin.com/in/sobourebello](https://www.linkedin.com/in/sobourebello) |
-| 🐙 GitHub | [github.com/soboure69](https://github.com/soboure69) |
-| 📍 Localisation | Lyon, Auvergne-Rhône-Alpes, France |
-
----
-
-<div align="center">
-
-### ⭐ Si mon travail vous plaît, n'hésitez pas à mettre une star ⭐
-
-*« Transformer les données en insights, les insights en décisions, les décisions en impact. »*
-
-</div>
-
----
-
-*Dernière mise à jour : octobre 2026*
+- [**NeuroPrice**](https://github.com/soboure69/NeuroPrice-PINN-Pricing) — projet ingénieur de 4e année, Polytech Lyon (2026). Pricing d'options par réseaux de neurones informés par la physique (PINN, PyTorch) : erreur relative de 0,09 % sur Black-Scholes 1D et 0,3 % sur une option à barrière ; pour les options asiatiques, le PINN n'a pas convergé et un modèle supervisé entraîné sur Monte Carlo a pris le relais. 49 tests, API FastAPI.
+- [**Dashboard Power BI des ventes**](https://github.com/soboure69/Projet-d-Analyse-des-Ventes-Tableau-de-Bord-Dynamique-avec-Power-BI) — modèle en étoile, Power Query et mesures DAX sur les données d'exemple Contoso. La comparaison avec l'année précédente est à corriger quand aucune année n'est filtrée.
+- [**Privacy SaaS**](https://github.com/soboure69/privacy-saas) — plateforme d'anonymisation de fichiers multi-organisations (FastAPI, SQLModel, React, Stripe en mode test). Prototype : tests partiels, pseudonymisation par hachage non salé à renforcer.
